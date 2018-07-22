@@ -10,12 +10,17 @@ There are a few dirty hacks that I used because I'm not used to working with win
 written as a command line program
 
 -input: Select input file (if --directory or --recursive flags are used will parse the directory instead)
+
 -output: file to write.
+
 -regex: regex command to use
 
 optional flags:
 
 --notext: Supress text search (Used for searching for annotations only)
+
 --annotation: Enables annotation searching
+
 --directory: will search the directory rather than the file 
+
 --recursive: will search the directory and all of its subfolders recursivly. 
