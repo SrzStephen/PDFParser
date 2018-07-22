@@ -15,7 +15,7 @@ written as a command line program
 
 -regex: regex command to use
 
-optional flags:
+## optional flags:
 
 --notext: Supress text search (Used for searching for annotations only)
 
