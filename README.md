@@ -9,7 +9,7 @@ There are a few dirty hacks that I used because I'm not used to working with win
 # Usage
 written as a command line program
 
--input: Select input file (if --directory or --recursive flags are used will parse the directory instead)
+-input: Select input file (if --directory or --recursive flags are used it will parse the directory instead)
 
 -output: file to write.
 
