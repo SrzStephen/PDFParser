@@ -17,7 +17,7 @@ parser.add_argument("--annotations", action="store_true", help="Search through a
                     default=False, required=False)
 
 parser.add_argument("--notext", action="store_true",
-                    help="Turns off searching through text (use if you're only looking at comments",
+                    help="Turns off searching through text (use if you're only looking at comments)",
                     default=False, required=False)
 parser.add_argument('--recursive',action="store_true",default=False,required=False,
                     help="Goes through folders and subfolders.")
