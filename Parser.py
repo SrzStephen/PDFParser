@@ -40,7 +40,7 @@ def pdfparser(file):
     # open as read only binary
     try:
         fp = open(file, 'rb')
-
+        
         rsrcmgr = PDFResourceManager()
         # because we're opening stirng as a binary, we need something to convert that binary stream into something usable.
         retstr = io.StringIO()
@@ -78,7 +78,7 @@ def fillRegexMatches(sentencestr,holdarray):
             holdarray.append(match)
     return holdarray
 
-# windblows and its bloody backslashes
+# windows and its bloody backslashes
 input = args.input.replace('\\','/')
 output = args.output.replace('\\','/')
 if args.recursive or args.directory:
