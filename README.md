@@ -1,9 +1,9 @@
 # PDFParser
 Parses PDF text and annotations with regex, spits out a CSV of matches.
 
-I wrote this very quickly because I got really annoyed with how unintuitive and unusable Adobe Readers COM bindings were. I figured if I was going to introduce a dependency (Specific version of Adobe Reader), I may as well make it my own dependency.
+I wrote this very quickly because I got really annoyed with how unintuitive Adobe Readers COM bindings for VBA Were. I figured if I was going to introduce a dependency (Specific version of Adobe Reader), I may as well make it my own dependency.
 
-There are a few dirty hacks that I used because I'm not used to working with windows decision to use an escape character (\) in its filepaths.
+There are a few dirty hacks that I used because I found windows was being weird when the path ended in \ due to it being an escape character.
 
 
 # Usage
